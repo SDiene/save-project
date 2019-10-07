@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: diene
+Build-Jdk: 11.0.4
+Implementation-Title: SpringBootJwtAuthentication
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.grokonez.jwtauthentication
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBootJwtAuthentication
+Created-By: Maven Integration for Eclipse
+

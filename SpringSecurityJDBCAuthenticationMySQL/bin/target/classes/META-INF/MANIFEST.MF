@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: diene
+Build-Jdk: 11.0.4
+Implementation-Title: SpringSecurityJDBCAuthenticationMySQL
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.javasampleapproach.springsecurity
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringSecurity
+ JDBCAuthenticationMySQL/
+Created-By: Maven Integration for Eclipse
+
