@@ -1,0 +1,55 @@
+
+.container-header{
+    border: solid gray 1px;
+    width: 100%;
+    height: 25%;
+}
+.container-texte-info{
+    display: flex;
+}
+.container-texte{
+    border: solid darkblue 1px;
+    width: 25%; 
+    float: left; 
+}
+.container-info{
+    border: solid lime 1px;
+    width: 74%; 
+    float: right; 
+    margin-top: 0.5%;
+}
+.info{
+    margin-left: 5%;
+}
+.infoplus{
+    margin-left: 10%;
+}
+.container-portfolio, .container-texte{
+    text-align: center;
+    margin-top: 0.5%;
+}
+.Sinfo{
+    width: 90%;
+}
+.Slogo{
+    width: 70%;
+}
+.logo{
+    border: 3px solid firebrick;
+    border-radius: 50%; 
+    width: 20%; 
+    height: 45%;  
+    margin: 5% auto 5% auto;
+} 
+.form{
+    display: flex;
+    margin-left: 10%
+}
+.date{
+    border: solid forestgreen 2px;
+    padding-right: 25%; 
+}
+.libele{
+    border: solid maroon 2px;
+    padding-right: 25%;
+}

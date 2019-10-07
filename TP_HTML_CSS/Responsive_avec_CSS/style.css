@@ -1,0 +1,366 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+nav{
+    width: 64.5%;
+	background-color: gray;
+	margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    display:block;
+}
+
+nav > ul{
+
+        padding: 0px;
+        margin: 0px;
+
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav > ul > li{
+    float: left;
+	width: 24.5%;
+	border: 1px solid #FFF;
+  text-align:center;
+	position: relative;
+
+}
+
+nav > ul > li:last-child{
+    border: none;
+
+}
+
+nav >  ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.mesmenu{
+    display: none;
+}
+
+nav input[type=checkbox]{
+    display: none;
+}
+
+nav label{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: center;
+}
+nav > ul > li > a{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+	text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  font-size: 14px;
+}
+
+
+nav li:hover .mesmenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.mesmenu li a{
+    padding: 10px 15px;
+    font-size: 13px;
+    color: aqua;
+    width: 100px;
+}
+.mesmenu li{
+    border-bottom: 1px solid darkcyan;
+}
+
+.menuAccueil:hover{
+    border-top: 3px solid yellow;
+    background-color: darkcyan;
+}
+
+.menuAccueil .mesmenu{
+	background-color: rgb(230, 100, 40);
+
+}
+
+.menuGroupe:hover{
+    border-top: 3px solid blue;
+    background-color: darkcyan
+}
+
+.menuGroupe .mesmenu{
+	background-color: rgb(000, 160, 240);
+
+}
+
+.menuFinance:hover{
+    border-top: 3px solid #e44d26;
+    background-color: darkcyan;
+}
+.menuFinance .mesmenu{
+	background-color: rgb(250, 215, 100);
+
+}
+.menuContact .mesmenu{
+	background-color: rgb(206, 134, 176);
+
+}
+
+.menuContact:hover{
+    border-top: 3px solid #BBB;
+    background-color: darkcyan;
+}
+
+.mesmenu li:hover a{
+    color:#EEE;
+    font-weight: bold;
+}
+
+.menuAccueil .mesmenu li:hover{
+	background-color: darkcyan;
+
+}
+
+.menuGroupe .mesmenu li:hover{
+	background-color: darkcyan;
+
+}
+
+.menuFinance .mesmenu li:hover{
+	background-color: darkcyan;
+
+}
+
+.menuContact .mesmenu li:hover{
+	background-color: darkcyan;
+
+}
+
+nav input[type=checkbox]:checked ~ ul
+{
+    display: block;
+}
+
+#rouge {
+	width:30%;
+	height: 34%;
+	float:right;
+	margin-top:-530px;
+	margin-right:30px;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+}
+
+#orange {
+	width:30%;
+	height: 34%;
+	float:right;
+	margin-top:-262px;
+	margin-right:30px;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+}
+
+@media screen and (max-width: 750px){
+    .tel{
+        display: block;
+        color: #FFF;
+        background-color: darkcyan;
+        text-align: center;
+        padding: 12px 0px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul li, nav ul li a{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px;
+    }
+    nav li:hover .mesmenu{
+        display: block;
+        position: static;
+	}
+	label{
+		border-radius: 10px;
+	}
+	img { max-width: 80%; }
+
+	#rouge {
+		width: 17%;
+		height: 35%;
+		float:right;
+		margin-top:-530px;
+		margin-right:5%;
+		margin-left: 1%;
+		border-radius: 10px;
+		border: 2px solid red;
+	}
+	#orange {
+		width:17%;
+		height: 35%;
+		float:right;
+		margin-top:-262px;
+		margin-right:  5%;
+		margin-left: 1%;
+		border-radius: 10px;
+		border: 2px solid darkcyan;
+
+	}
+}
+
+@media screen and (max-width: 1008px){
+	img { max-width: 80%; }
+
+	#rouge {
+		width: 16.5%;
+		height: 35%;
+		float:right;
+		margin-top:-530px;
+		margin-right:5%;
+		margin-left: 1%;
+		border-radius: 10px;
+		border: 2px solid darkcyan;
+	}
+	#orange {
+		width:16.5%;
+		height: 35%;
+		float:right;
+		margin-top:-262px;
+		margin-right:  5%;
+		margin-left: 1%;
+		border-radius: 10px;
+		border: 2px solid darkcyan;
+
+	}
+}
+
+div ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	float: left;
+	width: 120px;
+	height: 30px;
+	position: relative;
+}
+
+div li{
+	display:inline-block;
+	float: left;
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	margin-top: 8px;
+	padding: 0px;
+	border-right: 2px solid rgb(204, 204, 204);
+	position: relative;
+	background: black;
+	margin-top: 5px;
+	border-left: 2px solid rgb(204, 204, 204);
+
+}
+#Menu ul li a{
+	color: #ddd;
+	text-align: center;
+	text-align: justify;
+}
+#Menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+#Menu ul li:hover ul{
+	display:block;
+	visibility: visible;
+}
+#Menu ul li ul li a:hover{
+	background-color: white;
+	text-shadow: 1px 1px 1px #4f4796;
+}
+
+div li:last-child{
+	border: none;
+}
+div{
+	text-align:center;
+}
+
+#image{
+	text-align:left;
+	height: 100px;
+  padding: 2%;
+	margin-left:  16%;
+	margin-right: 16%;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+	background-color: white;
+}
+#Menu
+{
+	position:relative;
+	border-radius: 0px 10px 0px 10px;
+	border: 2px solid yellow;
+	background-color: black;
+	height:50px;
+	text-align: center;
+	margin: 1%;
+	width: 40%;
+	margin-left: 30%;
+
+}
+
+#main{
+	display:block;
+	margin-left:  16%;
+	margin-right: 16%;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+
+}
+#vert {
+	height: 500px;
+	display: block;
+	width: 60%;
+	margin: 30px;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+}
+
+
+img { max-width: 100%; }
+#bleu {
+	width:auto;
+	margin-top: 2%;
+	margin-left:  16%;
+	margin-right: 16%;
+	margin-bottom: 2%;
+	display:block;
+	height:75px;
+	border-radius: 10px;
+	border: 2px solid darkcyan;
+}

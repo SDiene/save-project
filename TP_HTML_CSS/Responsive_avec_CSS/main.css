@@ -1,0 +1,171 @@
+body{
+    font-size: 13px;
+}
+#maquette_page{
+    border: 3px solid darkcyan;
+    border-radius: 15px;
+    margin: 0px 200px 0px 200px;
+    padding: 10px;
+}
+nav{
+    color: black;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav li a{
+    border: 1px solid darkcyan;
+}
+nav ul li{
+    float: left;
+    position: relative;
+    list-style-type: none;
+    margin-left: 4%;
+    }
+nav ul li a{
+    display: block;
+    width: 120%;
+    float: left;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: darkcyan;
+}
+.submenu{
+    display: none;
+}
+.submenu ul li{
+    text-decoration: none;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    padding: 0px;
+    z-index: 100000;
+}
+.submenu li a{
+    border: 1px solid darkcyan;
+}
+
+#article{
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    float: left;
+    height: 350px;
+    width: 70%;
+    margin-left: 15px;
+}
+#aside{
+    float: right;
+    margin-right: 15px;
+    width: 20%;
+}
+#aside_top{
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    height: 165px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#aside_bottom{
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    height: 168px;
+    text-align: center;
+}
+#Pied_de_page{
+    display: flex;
+    margin: 420px 5px 0px 5px;
+}
+.footer{
+    border: 3px solid darkcyan;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 40%;
+    overflow: hidden;
+}
+.menu_mobile{
+    display: none;
+}
+nav input[type=checkbox]{
+    display: none;
+}
+nav input[type=checkbox]:checked ~ ul{
+    display: block;
+}
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 100px et 600px */
+@media screen and (min-width: 50px) and (max-width: 900px){
+    #maquette_page{
+        width: auto;
+    }
+    #Pied_de_page{
+        margin: 100% 2% 0% 2%;
+        font-size: 10px;
+    }
+    nav ul li{
+        margin-left: 18px;
+    }
+    .footer{
+        font-size: 5px;
+        text-align: center;
+    }
+    #article{
+        width: 40%;
+    }
+    #aside{
+        width: 15%;
+    }
+    #SA{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 900px){
+    #SA{
+        width: 25%;
+    }
+    #article{
+        width: 60%;
+    }
+    #aside{
+        width: 20%;
+    }
+    #Pied_de_page{
+        margin: 105% 2% 0% 2%;
+    }
+    .footer{
+        font-size: 8px;
+    }
+    .menu_mobile{
+        display: block;
+        color: aliceblue;
+        background-color: darkcyan;
+        text-align: center;
+        padding:10px 0;
+        margin: 0px 50px 10px 50px;
+        font-size: 16px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav ul li, nav ul li a{
+        width: 20%;
+        text-align: center;
+    }
+    nav ul li, nav ul li :hover a{
+        padding: 10px 0px 10px 0px;
+    }
+    nav li:hover .submenu{
+        display: block;
+        position: static;
+    }
+}
