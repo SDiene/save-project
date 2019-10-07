@@ -1,0 +1,22 @@
+# Table de multiplication 
+use strict;
+use warnings;
+print " Table de Multiplication en perl \n"; 
+print "Donner moi un nombre: ";
+my $nbr = <>;
+chomp $nbr;
+print "La multiplication de $nbr donne :\n";
+print "$nbr x 1 = ". $nbr * 1 ."\n";
+print "$nbr x 2 = ". $nbr * 2 ."\n";
+print "$nbr x 3 = ". $nbr * 3 ."\n";
+print "$nbr x 4 = ". $nbr * 4 ."\n";
+print "$nbr x 5 = ". $nbr * 5 ."\n";
+print "$nbr x 6 = ". $nbr * 6 ."\n";
+print "$nbr x 7 = ". $nbr * 7 ."\n";
+print "$nbr x 8 = ". $nbr * 8 ."\n";
+print "$nbr x 9 = ". $nbr * 9 ."\n";
+print "$nbr x 10 = ". $nbr * 10 ."\n";
+print "$nbr x 11 = ". $nbr * 11 ."\n";
+print "$nbr x 12 = ". $nbr * 12 ."\n";
+print "Cliquez sur Entrer pour quitter";
+<>;
